@@ -1,3 +1,13 @@
+.back-img {
+  background-image: url('images/Background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 587.15px;
+  top: 104px;
+}
+
 .toolbar {
   display: flex;
   color: slateblue;
@@ -19,7 +29,7 @@ body {
 }
 
 .greeting {
-  margin-top: 35%;
+  margin-top: 19%;
   font-weight: bold;
   font-size: 48px;
   margin-bottom: 10px;
@@ -33,21 +43,13 @@ body {
   margin-left: 15px;
 }
 
-.back-img {
-  background-image: url('images\header-shapes mobile.png');
-  position: absolute;
-  width: 100%;
-  height: 587.15px;
-  top: 104px;
-}
-
 .btn {
   position: absolute;
   width: 24px;
   height: 24px;
   background-color: transparent;
-  top: 15px;
-  left: 418px;
+  top: 18px;
+  left: 408px;
   border: none;
 }
 
@@ -85,38 +87,42 @@ ul {
   height: 24px;
 }
 
-.twitter {
-  position: absolute;
-  left: 6%;
-  right: 88.27%;
-  top: 69%;
-  bottom: 18.88%;
-}
-
 .github {
   position: absolute;
   left: 14%;
   right: 57.07%;
-  top: 68.8%;
+  top: 73%;
   bottom: 18.87%;
+  width: 25px;
+  height: 25px;
 }
 
 .gmail {
   position: absolute;
-  left: 12%;
-  right: 67.2%;
-  top: 69%;
+  padding-left: 30px;
+  top: 74%;
   bottom: 19.21%;
+  width: 25px;
+  height: 25px;
 }
 
 .linkedin {
   position: absolute;
   width: 20px;
+  padding-left: 55px;
   height: 20px;
   left: 63px;
-  top: 509px;
+  top: 73.4%;
 }
 
 li {
   list-style-type: none;
+}
+
+.toolbar-img {
+  background-image: url('images/Toolbar.png');
+  background-repeat: no-repeat;
+  width: 470px;
+  height: 50px;
+  background-size: cover;
 }
