@@ -71,7 +71,7 @@ body {
   line-height: 24px;
   width: 117px;
   height: 24px;
-  color: #7F8CFF;
+  color: #7f8cff;
 }
 
 .socials-div {
@@ -111,7 +111,7 @@ ul {
 
 .gmail {
   position: absolute;
-  padding-left: 0px;
+  padding-left: 0;
   top: 566px;
   bottom: 19.21%;
   width: 25px;
@@ -147,7 +147,7 @@ ul {
   position: absolute;
   width: 327px;
   height: 2788px;
-  left: 0px;
+  left: 0;
   top: 718px;
 }
 
@@ -213,7 +213,7 @@ ul {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
 }
 
 #date {
@@ -225,7 +225,7 @@ ul {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
 }
 
 .tags-ul {
@@ -242,23 +242,23 @@ ul {
   padding: 4px 5px 4px 10px;
   width: 45px;
   height: 24px;
-  color: #6070FF;
+  color: #6070ff;
 }
 
 .css-tag {
   background: #ebebff;
   border-radius: 8px;
-  padding: 4px 0px 4px 10px;
+  padding: 4px 0 4px 10px;
   width: 45px;
   height: 24px;
-  color: #6070FF;
+  color: #6070ff;
 }
 
 .javaScript-tag {
   background: #ebebff;
   border-radius: 8px;
   padding: 4px 10px;
-  color: #6070FF;
+  color: #6070ff;
   width: 89px;
   height: 24px;
 }
@@ -267,7 +267,7 @@ ul {
   background-color: white;
   border-radius: 8px;
   border: 1px solid #6070ff;
-  color: #6070FF;
+  color: #6070ff;
   padding: 12px;
   font-weight: 700;
   width: 124px;
@@ -350,7 +350,7 @@ ul {
 }
 
 .resume {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .resume-btn {
@@ -361,13 +361,13 @@ ul {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  color: #396DF2;
+  color: #396df2;
   background-color: white;
   padding: 12px;
   gap: 10px;
   width: 172px;
   height: 48px;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   border-radius: 8px;
 }
 
@@ -380,7 +380,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   width: 327px;
   height: 464.15px;
   margin-top: 220px;
@@ -391,7 +391,7 @@ ul {
   position: absolute;
   left: 12px;
   right: 78px;
-  top: calc(50% - 24px/2);
+  top: calc(50% - 24px / 2);
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -437,7 +437,7 @@ option {
   position: absolute;
   width: 24px;
   height: 24px;
-  color: #5E6C84;
+  color: #5e6c84;
   padding: 8px;
   right: 26px;
   top: 10px;
@@ -461,7 +461,7 @@ option {
   align-items: center;
   width: 303px;
   height: 66.72px;
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
   text-align: center;
 }
@@ -483,7 +483,7 @@ option {
   width: 48px;
   height: 48px;
   left: 35px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #fff;
   background-image: url('images/JavaScript.png');
   margin-top: 8px;
 }
@@ -493,7 +493,7 @@ option {
   width: 48px;
   height: 48px;
   left: 35px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #fff;
   background-image: url('images/HTML.png');
   margin-top: 8px;
 }
@@ -503,7 +503,7 @@ option {
   width: 48px;
   height: 48px;
   left: 35px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #fff;
   background-image: url('images/CSS.png');
   margin-top: 8px;
 }
@@ -537,9 +537,9 @@ option {
 #sep-btn {
   position: absolute;
   height: 1px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
   width: 327px;
-  background: #DFE1E6;
+  background: #dfe1e6;
 }
