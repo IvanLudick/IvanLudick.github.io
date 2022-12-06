@@ -621,3 +621,8 @@ option {
   color: #6070ff;
   border: none;
 }
+
+.submit-btn:hover {
+  enable-background: white;
+  background-color: slateblue;
+}
