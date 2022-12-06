@@ -2,6 +2,7 @@
 
 * {
   font-family: "Poppins", sans-serif;
+  margin-right: 0px;
 }
 
 .back-img {
@@ -145,10 +146,12 @@ ul {
   padding: 114px 24px;
   gap: 88px;
   position: absolute;
-  width: 327px;
+  width: 87vw;
   height: 2788px;
+  right: 0;
   left: 0;
   top: 718px;
+  margin-right: 0px;
 }
 
 .tonic-1 {
@@ -286,7 +289,7 @@ ul {
 
 .about-myself {
   position: absolute;
-  width: 375px;
+  width: 100%;
   height: 1263px;
   top: 3680px;
   border-top-right-radius: 60px;
@@ -528,4 +531,54 @@ option {
   bottom: 0;
   width: 327px;
   background: #dfe1e6;
+}
+
+.contact-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  height: 779px;
+  left: 0px;
+  top: 4880px;
+  background: #6070FF;
+  border-top-left-radius: 70px;
+}
+
+.form-bg {
+  background-image: url('images/contact-form-mobile.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+  width: 100%;
+  height: 779px;
+  top: 4850px;
+  margin-top: 40px;
+}
+
+.from-descript {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  flex-direction: column;
+  margin-top: 30%;
+}
+
+.contact-info {
+  display: flex;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: white;
+  padding: 0 8%;
+  margin-top: -10%;
+  text-align: center;
+  font-style: normal;
+}
+
+.form-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: white;
 }
