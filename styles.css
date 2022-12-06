@@ -146,7 +146,7 @@ ul {
   padding: 114px 24px;
   gap: 88px;
   position: absolute;
-  width: 87vw;
+  width: 327px;
   height: 2788px;
   right: 0;
   left: 0;
@@ -289,7 +289,7 @@ ul {
 
 .about-myself {
   position: absolute;
-  width: 100%;
+  width: 375px;
   height: 1263px;
   top: 3680px;
   border-top-right-radius: 60px;
@@ -564,11 +564,11 @@ option {
 .form-bg {
   background-image: url('images/contact-form-mobile.png');
   background-repeat: no-repeat;
-  background-size: 100% 100vh;
-  width: 100%;
-  height: 779px;
-  top: 4850px;
-  margin-top: 40px;
+  background-size: 265px 709.17px;
+  width: 265px;
+  height: 709.17px;
+  margin-left: 153px;
+  top: 4842px;
 }
 
 .from-descript {
