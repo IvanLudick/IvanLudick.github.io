@@ -2,6 +2,7 @@
 
 * {
   font-family: "Poppins", sans-serif;
+  margin-right: 0;
 }
 
 .back-img {
@@ -147,8 +148,10 @@ ul {
   position: absolute;
   width: 327px;
   height: 2788px;
+  right: 0;
   left: 0;
   top: 718px;
+  margin-right: 0;
 }
 
 .tonic-1 {
@@ -231,36 +234,22 @@ ul {
 .tags-ul {
   display: flex;
   align-items: center;
+  float: inline-start;
   list-style-type: none;
   gap: 8px;
   padding: 0;
 }
 
-.html-tag {
+.tag {
+  float: left;
+  text-align: center;
   background: #ebebff;
   border-radius: 8px;
   padding: 4px 5px 4px 10px;
-  width: 45px;
+  width: auto;
   height: 24px;
   color: #6070ff;
-}
-
-.css-tag {
-  background: #ebebff;
-  border-radius: 8px;
-  padding: 4px 0 4px 10px;
-  width: 45px;
-  height: 24px;
-  color: #6070ff;
-}
-
-.javaScript-tag {
-  background: #ebebff;
-  border-radius: 8px;
-  padding: 4px 10px;
-  color: #6070ff;
-  width: 89px;
-  height: 24px;
+  margin: 0 5px;
 }
 
 .project-btn {
@@ -542,4 +531,104 @@ option {
   bottom: 0;
   width: 327px;
   background: #dfe1e6;
+}
+
+.contact-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  height: 779px;
+  left: 0;
+  top: 4880px;
+  background: #6070ff;
+  border-top-left-radius: 70px;
+  width: 375px;
+}
+
+.form-action {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.text-area {
+  height: 150px;
+  outline: none;
+  width: 327px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  color: #172b4d;
+  padding-left: 16px;
+  padding-top: 15px;
+}
+
+.form-bg {
+  background-image: url('images/contact-form-mobile.png');
+  background-repeat: no-repeat;
+  background-size: 265px 709.17px;
+  width: 265px;
+  height: 709.17px;
+  margin-left: 110px;
+  top: 4842px;
+}
+
+.from-descript {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  flex-direction: column;
+  margin-top: 20%;
+}
+
+.contact-info {
+  display: flex;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: white;
+  border: none;
+  padding: 0 8%;
+  margin-top: -10%;
+  text-align: center;
+  font-style: normal;
+}
+
+.form-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: white;
+}
+
+.lable {
+  outline: none;
+  width: 327px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  height: 48px;
+  padding-left: 16px;
+
+  /* right: 38px; */
+}
+
+::placeholder {
+  color: #172b4d;
+}
+
+.submit-btn {
+  font-size: 17px;
+  height: 48px;
+  width: 140px;
+  left: 24px;
+  top: 5317px;
+  border-radius: 8px;
+  padding: 12px 16px 12px 16px;
+  color: #6070ff;
+  border: none;
+}
+
+.submit-btn:hover {
+  enable-background: white;
+  background-color: slateblue;
 }
