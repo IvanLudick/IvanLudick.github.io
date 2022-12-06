@@ -553,12 +553,14 @@ option {
 }
 
 .text-area {
-  height: 170px;
+  height: 150px;
   outline: none;
   width: 327px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   color: #172b4d;
+  padding-left: 16px;
+  padding-top: 15px;
 }
 
 .form-bg {
@@ -576,7 +578,7 @@ option {
   align-items: center;
   position: absolute;
   flex-direction: column;
-  margin-top: 30%;
+  margin-top: 20%;
 }
 
 .contact-info {
@@ -604,6 +606,10 @@ option {
   width: 327px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
+  height: 48px;
+  padding-left: 16px;
+
+  /* right: 38px; */
 }
 
 ::placeholder {
