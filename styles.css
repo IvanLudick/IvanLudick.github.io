@@ -298,6 +298,11 @@ body {
   background-size: 100%;
 }
 
+.tonic2-img:hover {
+  width: 70%;
+  height: 110%;
+}
+
 .multi2-img {
   display: flex;
   background-image: url('images/Multi-post2.png');
@@ -306,6 +311,11 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   order: 2;
+}
+
+.multi2-img:hover {
+  width: 70%;
+  height: 110%;
 }
 
 .text-box {
