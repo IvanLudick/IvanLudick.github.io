@@ -19,7 +19,6 @@
 .toolbar-txt {
   display: flex;
   color: slateblue;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -40,25 +39,26 @@
   line-height: 20px;
   color: #344563;
 }
+
 .toolbar {
   position: absolute;
   width: 100%;
   height: 72px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
 }
 
-.intro{
+.intro {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   position: absolute;
   width: 55%;
   height: 268px;
   left: 20%;
-  top: calc(50% - 600px/2);
+  top: calc(50% - 600px / 2);
 }
 
 a {
@@ -139,7 +139,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 8px;
   position: absolute;
   width: 259px;
@@ -234,7 +234,7 @@ body {
   height: 445px;
   size: 40px;
   top: 5%;
-  color: #091E42;
+  color: #091e42;
 }
 
 .tonic-txt2 {
@@ -248,7 +248,7 @@ body {
   height: 445px;
   size: 40px;
   top: 29%;
-  color: #091E42;
+  color: #091e42;
 }
 
 .tonic-txt3 {
@@ -262,7 +262,7 @@ body {
   height: 445px;
   size: 40px;
   top: 54%;
-  color: #091E42;
+  color: #091e42;
 }
 
 .tonic-txt4 {
@@ -276,7 +276,7 @@ body {
   height: 445px;
   size: 40px;
   top: 78%;
-  color: #091E42;
+  color: #091e42;
 }
 
 .multi-img {
@@ -360,6 +360,7 @@ body {
   padding: 0;
   width: 327px;
   height: 464.15px;
+
   /* margin-top: 220px; */
   margin-left: 20px;
 }
@@ -372,6 +373,7 @@ body {
   gap: 12px;
   width: 327px;
   height: 248.15px;
+
   /* margin-top: 50px; */
   margin-left: 15px;
 }
@@ -415,8 +417,6 @@ body {
   .toolbar-txt {
     display: flex;
     color: slateblue;
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
@@ -428,7 +428,7 @@ body {
     margin-top: 15px;
   }
 
-  .intro{
+  .intro {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -437,7 +437,7 @@ body {
     position: absolute;
     width: 375px;
     height: 604px;
-    left: calc(50% - 105%/2);
+    left: calc(50% - 105% / 2);
     top: 92px;
   }
 
@@ -448,7 +448,7 @@ body {
     height: 20px;
     left: 10%;
   }
-  
+
   .link-gmail {
     display: flex;
     position: absolute;
@@ -456,7 +456,7 @@ body {
     height: 20px;
     left: 19%;
   }
-  
+
   .link-git {
     display: flex;
     position: absolute;
@@ -481,6 +481,7 @@ body {
     top: 917px;
     margin-right: 0;
   }
+
   .item-nav {
     background-image: url('images/Icon - Menu.png');
     background-repeat: no-repeat;
@@ -496,9 +497,8 @@ body {
   .item-txt {
     visibility: hidden;
     left: 2%;
-    width: 0px;
-    height: 0px;
-
+    width: 0;
+    height: 0;
   }
 
   .btn {
@@ -510,7 +510,7 @@ body {
     left: 85%;
     border: none;
   }
-  
+
   .btn:hover {
     enable-background: white;
     background-color: slateblue;
@@ -529,7 +529,7 @@ body {
     border-radius: 16px;
     background-color: white;
   }
-  
+
   .multi-2 {
     display: flex;
     flex-direction: column;
@@ -557,7 +557,7 @@ body {
     border-radius: 16px;
     background-color: white;
   }
-  
+
   .tonic-2 {
     display: flex;
     flex-direction: column;
@@ -631,13 +631,13 @@ body {
     width: 295px;
     height: 220px;
   }
-  
+
   .tonic2-img {
     background-image: url('images/Tonic2.png');
     width: 295px;
     height: 220px;
   }
-  
+
   .multi2-img {
     background-image: url('images/Multi-post2.png');
     width: 295px;
@@ -685,6 +685,7 @@ body {
     gap: 12px;
     width: 327px;
     height: 248.15px;
+
     /* margin-top: 50px; */
     margin-left: 15px;
   }
