@@ -221,6 +221,12 @@ body {
   width: 50%;
   height: 100%;
   background-repeat: no-repeat;
+  transition-duration: 3s;
+}
+
+.tonic-img:hover {
+  width: 70%;
+  height: 110%;
 }
 
 .tonic-txt {
@@ -287,6 +293,12 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   order: 2;
+  transition-duration: 3s;
+}
+
+.multi-img:hover {
+  width: 70%;
+  height: 110%;
 }
 
 .tonic2-img {
@@ -360,8 +372,6 @@ body {
   padding: 0;
   width: 327px;
   height: 464.15px;
-
-  /* margin-top: 220px; */
   margin-left: 20px;
 }
 
@@ -373,8 +383,6 @@ body {
   gap: 12px;
   width: 327px;
   height: 248.15px;
-
-  /* margin-top: 50px; */
   margin-left: 15px;
 }
 
@@ -685,8 +693,6 @@ body {
     gap: 12px;
     width: 327px;
     height: 248.15px;
-
-    /* margin-top: 50px; */
     margin-left: 15px;
   }
 
