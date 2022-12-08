@@ -221,6 +221,12 @@ body {
   width: 50%;
   height: 100%;
   background-repeat: no-repeat;
+  transition-duration: 3s;
+}
+
+.tonic-img:hover {
+  width: 60%;
+  height: 110%;
 }
 
 .tonic-txt {
