@@ -296,6 +296,7 @@ body {
   height: 100%;
   background-repeat: no-repeat;
   background-size: 100%;
+  transition-duration: 3s;
 }
 
 .tonic2-img:hover {
@@ -311,6 +312,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   order: 2;
+  transition-duration: 3s;
 }
 
 .multi2-img:hover {
