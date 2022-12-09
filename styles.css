@@ -647,7 +647,6 @@ body {
     margin-right: 0;
   }
 
-
   .item-nav {
     background-image: url('images/Icon - Menu.png');
     background-repeat: no-repeat;
@@ -665,8 +664,6 @@ body {
     left: 2%;
     width: 0;
     height: 0;
-    width: 0;
-    height: 0;
   }
 
   .btn {
@@ -678,7 +675,6 @@ body {
     left: 85%;
     border: none;
   }
-
 
   .btn:hover {
     enable-background: white;
@@ -698,7 +694,6 @@ body {
     border-radius: 16px;
     background-color: white;
   }
-
 
   .multi-2 {
     display: flex;
@@ -727,7 +722,6 @@ body {
     border-radius: 16px;
     background-color: white;
   }
-
 
   .tonic-2 {
     display: flex;
@@ -808,7 +802,6 @@ body {
     width: 295px;
     height: 220px;
   }
-
 
   .tonic2-img {
     background-image: url('images/Tonic2.png');
