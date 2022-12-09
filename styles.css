@@ -40,11 +40,13 @@
 }
 
 .toolbar {
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 72px;
   left: 0;
   top: 0;
+  z-index: 1;
+  background-color: white;
 }
 
 .intro {
@@ -110,13 +112,13 @@ body {
   font-weight: bold;
   font-size: 48px;
   margin-bottom: 10px;
-  color: black;
+  color: #091e42;
   margin-left: 15px;
 }
 
 .descript {
   font-size: 20px;
-  color: black;
+  color: #344563;
   margin-left: 15px;
 }
 
@@ -966,7 +968,7 @@ body {
     background-image: url('images/contact-form-mobile.png');
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 79.5%;
+    width: calc(91% - 90px / 2);
     height: 709.17px;
     margin-left: 110px;
     top: 4842px;
@@ -1145,10 +1147,12 @@ ul {
 
 .about-title {
   font-size: 40px;
+  color: #091e42;
 }
 
 .about-descript {
   font-size: 20px;
+  color: #344563;
 }
 
 .social-links {
