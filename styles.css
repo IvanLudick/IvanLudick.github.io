@@ -968,8 +968,8 @@ body {
     background-image: url('images/contact-form-mobile.png');
     background-repeat: no-repeat;
     background-size: 100%;
-    width: calc(91% - 90px / 2);
-    height: 709.17px;
+    width: calc(91% - 35% / 2);
+    height: 100vh;
     margin-left: 110px;
     top: 4842px;
   }
@@ -993,7 +993,7 @@ body {
     padding: 0 8%;
     text-align: center;
     font-style: normal;
-    width: 500px;
+    width: 327px;
   }
 
   .contact-form {
