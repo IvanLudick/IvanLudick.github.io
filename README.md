@@ -78,7 +78,7 @@ This is just the skeleton of the website.
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://ivanludick.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
