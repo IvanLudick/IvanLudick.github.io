@@ -82,6 +82,10 @@ This is just the skeleton of the website.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Video Walkthrough <a name="Video-Walkthrough"></a>
+
+- [Video Walkthrough Link](https://www.loom.com/share/e034b84df93a4bb28d8e3f38c19446b7)
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
 > Describe how a new developer could make use of your project.
