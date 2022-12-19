@@ -31,16 +31,10 @@
   width: 100px;
 }
 
-.item-txt {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #344563;
-}
-
 .toolbar {
+  display: flex;
   position: fixed;
+  justify-content: space-between;
   width: 100%;
   height: 72px;
   left: 0;
@@ -138,7 +132,6 @@ body {
 
 .item-nav {
   display: flex;
-  flex-direction: row;
   align-items: center;
   padding: 0;
   gap: 8px;
@@ -149,14 +142,35 @@ body {
   top: 16px;
 }
 
-.btn {
+.item-nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.item-nav li {
+  list-style: none;
+}
+
+.toggle-button {
   position: absolute;
-  width: 24px;
-  height: 24px;
-  background-color: transparent;
-  top: 18px;
-  left: 85%;
-  border: none;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 18px;
+  height: 12px;
+  top: .75rem;
+  right: 1rem;
+}
+
+.toggle-button .bar {
+  height: 2px;
+  width: 100%;
+  background-color: #6070FF;
+  border-radius: 10px;
+}
+
+#btn {
   visibility: hidden;
 }
 
@@ -650,37 +664,67 @@ body {
   }
 
   .item-nav {
-    background-image: url('images/Icon - Menu.png');
-    background-repeat: no-repeat;
-    padding: 8px;
+    display: none;
+    width: 100%;
+    height: 100%;
+    align-items: flex-start;
+    left: 10%;
+    top: 100%;
+  }
+
+  .toolbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .toggle-button {
+    display: flex;
+  }
+
+  .item-nav ul {
+    width: 100%;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 5%;
+  }
+
+  .item-nav li {
+    height: 32px;
+    font-size: 32px;
+    padding-bottom: 10%;
+  }
+
+  .item-nav a {
+    /* color: #fff; */
+  }
+
+  .item-nav.active {
+    display: flex;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+  }
+
+  body.change {
+    background: #6070FF;
+    mix-blend-mode: multiply;
+    filter: blur(6px);
+  }
+
+  .dropdown {
+    display: flex;
+    flex-direction: column;
     position: absolute;
-    width: 30px;
-    height: 40px;
-    right: 24px;
-    left: 85%;
-    top: 30%;
+    width: 250px;
+    margin-top: 0.3rem;
+    background: #6070FF;
+    opacity: 0;
   }
 
-  .item-txt {
-    visibility: hidden;
-    left: 2%;
-    width: 0;
-    height: 0;
-  }
-
-  .btn {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    background-color: transparent;
-    top: 18px;
-    left: 85%;
-    border: none;
-  }
-
-  .btn:hover {
-    enable-background: white;
-    background-color: slateblue;
+  .show {
+    transform: translateY(0rem);
+    visibility: visible;
+    opacity: 1;
   }
 
   .multi-1 {
