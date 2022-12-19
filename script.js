@@ -9,4 +9,5 @@ toggleButton.addEventListener('click', () => {
     color();
   }
   
-})
+}
+)
