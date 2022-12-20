@@ -257,7 +257,6 @@ body {
   position: absolute;
   width: 520px;
   height: 445px;
-  size: 40px;
   top: 5%;
   color: #091e42;
 }
@@ -271,7 +270,6 @@ body {
   position: absolute;
   width: 520px;
   height: 445px;
-  size: 40px;
   top: 29%;
   color: #091e42;
 }
@@ -285,7 +283,6 @@ body {
   position: absolute;
   width: 520px;
   height: 445px;
-  size: 40px;
   top: 54%;
   color: #091e42;
 }
@@ -299,7 +296,6 @@ body {
   position: absolute;
   width: 520px;
   height: 445px;
-  size: 40px;
   top: 78%;
   color: #091e42;
 }
@@ -576,7 +572,6 @@ body {
 }
 
 .submit-btn:hover {
-  enable-background: white;
   background-color: slateblue;
 }
 
@@ -1085,7 +1080,6 @@ body {
   }
 
   .submit-btn:hover {
-    enable-background: white;
     background-color: slateblue;
   }
 
@@ -1199,7 +1193,6 @@ body {
 }
 
 .project-btn:hover {
-  enable-background: white;
   background-color: slateblue;
 }
 
@@ -1259,7 +1252,6 @@ body {
 }
 
 .resume-btn:hover {
-  enable-background: white;
   background-color: slateblue;
 }
 
