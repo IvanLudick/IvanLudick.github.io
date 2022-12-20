@@ -13,6 +13,7 @@ toggleButtonOff.addEventListener('click', () => {
   }
 });
 
+// eslint-disable-next-line no-unused-vars
 function closeMenu(toggleButton) {
   navbarLinks.classList.toggle('active')(bodyColor.classList.toggle('change'));
 }
