@@ -4,9 +4,7 @@ const bodyColor = document.getElementsByClassName('section-1')[0];
 const toggleButtonOff = document.getElementsByClassName('toggle-2')[0];
 
 toggleButton.addEventListener('click', () => {
-  if (navbarLinks.classList.toggle('active')(bodyColor.classList.toggle('change'))) {
-    toggleButton();
-  }
+  navbarLinks.classList.toggle('active')(bodyColor.classList.toggle('change'));
 });
 
 toggleButtonOff.addEventListener('click', () => {
@@ -14,3 +12,7 @@ toggleButtonOff.addEventListener('click', () => {
     toggleButtonOff();
   }
 });
+
+function closeMenu(toggleButton) {
+  navbarLinks.classList.toggle('active')(bodyColor.classList.toggle('change'));
+}

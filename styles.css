@@ -234,6 +234,10 @@ body {
   background-color: white;
 }
 
+.toggle-2 {
+  opacity: 0;
+}
+
 .tonic-img {
   display: flex;
   background-image: url('images/desktop-tonic.png');
@@ -572,7 +576,7 @@ body {
 }
 
 .submit-btn:hover {
-  background-color: slateblue;
+  background-color: #6070ff;
 }
 
 .form-action {
@@ -704,7 +708,7 @@ body {
     top: 0;
     height: 100vh;
     width: 100%;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(6px);
   }
 
   .item-nav .toggle-2 {
@@ -719,7 +723,7 @@ body {
   }
 
   .section-1.change {
-    background: #7987ff;
+    background: #6070ff;
     width: 100%;
     height: 100vh;
   }
@@ -1080,7 +1084,7 @@ body {
   }
 
   .submit-btn:hover {
-    background-color: slateblue;
+    background-color: #6070ff;
   }
 
   .form-action {
@@ -1193,7 +1197,7 @@ body {
 }
 
 .project-btn:hover {
-  background-color: slateblue;
+  background-color: #6070ff;
 }
 
 .about-title {
@@ -1252,7 +1256,7 @@ body {
 }
 
 .resume-btn:hover {
-  background-color: slateblue;
+  background-color: #6070ff;
 }
 
 #skills {
