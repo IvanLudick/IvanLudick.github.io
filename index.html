@@ -7,23 +7,30 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
   </head>
 
   <body>
-
-      <header class="toolbar">
+    <section class="section-1">
+      <nav class="toolbar">
         
         <div class="toolbar-txt">My Logo</div>
-
-        <div class="item-nav">
-          <div class="item-txt">Portifolio</div>
-          <div class="item-txt">About</div>
-          <div class="item-txt">Contact</div>
-        </div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
         
-        <button class="btn"><i class="bars"></i></button>
+        <div class="item-nav">
+          <button class="toggle-2">X</button>
+          <ul>
+            <li><a href="#work" onclick="closeMenu()">Portfolio</a></li>
+            <li><a href="#about-myself" onclick="closeMenu()">About</a></li>
+            <li><a href="#contact-form" onclick="closeMenu()">Contact</a></li>
+          </ul>
+        </div>
 
-      </header>
+      </nav>
 
   <div class="header-section">
 
@@ -49,8 +56,9 @@
     
     
     </div>
-  
-  <section class="work">
+    </section>
+
+  <section id="work">
     <div class="tonic-1">
 
         <div class="tonic-img"></div>
@@ -189,7 +197,7 @@
 
   </section>
 
-  <section class="about-myself">
+  <section id="about-myself">
 
     <div class="about-me">
       <h1 class="about-title">About <br>Myself</h1>
@@ -254,7 +262,7 @@
 
   </section>
 
-  <footer class="contact-form">
+  <footer id="contact-form">
 
     <div class="form-bg"></div>
 
