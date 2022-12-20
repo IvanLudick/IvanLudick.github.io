@@ -120,7 +120,7 @@ body {
   margin-left: 15px;
 }
 
-.work {
+#work {
   display: grid;
   grid-row: auto;
   align-items: center;
@@ -361,7 +361,7 @@ body {
   gap: 12px;
 }
 
-.about-myself {
+#about-myself {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -521,7 +521,7 @@ body {
   top: 4842px;
 }
 
-.contact-form {
+#contact-form {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -650,7 +650,7 @@ body {
     left: 29%;
   }
 
-  .work {
+  #work {
     display: grid;
     grid-row: auto;
     align-items: center;
@@ -890,7 +890,7 @@ body {
     order: 2;
   }
 
-  .about-myself {
+  #about-myself {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -1058,7 +1058,7 @@ body {
     width: 327px;
   }
 
-  .contact-form {
+  #contact-form {
     display: flex;
     align-items: center;
     flex-direction: column;
