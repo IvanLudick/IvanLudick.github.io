@@ -64,7 +64,9 @@ facePopClose.addEventListener('click', () => {
 });
 
 const toggleUberPop = document.getElementsByClassName('project-btn4')[0];
+
 const uberPopup = document.getElementsByClassName('uber-popup')[0];
+
 const uberPopClose = document.getElementsByClassName('toggle-popup4')[0];
 
 toggleUberPop.addEventListener('click', () => {

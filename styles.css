@@ -475,7 +475,7 @@ body {
   .toggle-popup3,
   .toggle-popup2,
   .toggle-popup {
-    
+   margin-left: 90%; 
   }
 }
 
