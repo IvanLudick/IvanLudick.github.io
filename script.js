@@ -5,16 +5,16 @@ const toggleButtonOff = document.getElementsByClassName('toggle-2')[0];
 const toggleScroll = document.getElementsByTagName('body')[0];
 
 toggleButton.addEventListener('click', () => {
-  navbarLinks.classList.toggle('active')(bodyColor.classList.toggle('change')(toggleScroll.classList.toggle('fixed')));
+    navbarLinks.classList.toggle('active')(bodyColor.classList.toggle('change')(toggleScroll.classList.toggle('fixed')));
 });
-
+//closes the mobile menu
 toggleButtonOff.addEventListener('click', () => {
-  if (navbarLinks.classList.toggle('active')(bodyColor.classList.toggle('change')(toggleScroll.classList.toggle('fixed')))) {
-    toggleButtonOff();
-  }
+    if (navbarLinks.classList.toggle('active')(bodyColor.classList.toggle('change')(toggleScroll.classList.toggle('fixed')))) {
+        toggleButtonOff();
+    }
 });
 
 // eslint-disable-next-line no-unused-vars
 function closeMenu(toggleButton) {
-  navbarLinks.classList.toggle('active')(bodyColor.classList.toggle('change')(toggleScroll.classList.toggle('fixed')));
+    navbarLinks.classList.toggle('active')(bodyColor.classList.toggle('change')(toggleScroll.classList.toggle('fixed')));
 }
