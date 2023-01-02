@@ -40,7 +40,6 @@
   left: 0;
   top: 0;
   z-index: 1;
-  background-color: white;
 }
 
 .intro {
@@ -147,7 +146,6 @@ body {
 }
 
 .item-nav ul {
-  margin: 0;
   padding: 0;
   display: flex;
 }
@@ -688,7 +686,7 @@ body {
   .item-nav ul {
     width: 100%;
     flex-direction: column;
-    margin-top: 20%;
+    margin-top: 10%;
     margin-left: 5%;
   }
 
