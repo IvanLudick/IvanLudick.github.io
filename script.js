@@ -8,6 +8,7 @@ toggleButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('active')(bodyColor.classList.toggle('change')(toggleScroll.classList.toggle('fixed')));
 });
 
+// closes the mobile menu
 toggleButtonOff.addEventListener('click', () => {
   if (navbarLinks.classList.toggle('active')(bodyColor.classList.toggle('change')(toggleScroll.classList.toggle('fixed')))) {
     toggleButtonOff();
